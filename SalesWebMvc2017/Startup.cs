@@ -53,6 +53,7 @@ namespace SalesWebMvc2017
                 seedingService.Seed();
             }
             else
+
             {
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
